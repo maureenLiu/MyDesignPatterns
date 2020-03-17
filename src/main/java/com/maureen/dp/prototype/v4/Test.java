@@ -1,5 +1,6 @@
 package com.maureen.dp.prototype.v4;
 
+//new的StringBuilder对象需要深克隆
 public class Test {
     public static void main(String[] args) throws CloneNotSupportedException {
         Person p1 = new Person();
