@@ -1,0 +1,8 @@
+package com.maureen.dp.factorymethod;
+
+public class Plane implements Movable {
+    @Override
+    public void go() {
+        System.out.println("Plane go sousousou...");
+    }
+}
