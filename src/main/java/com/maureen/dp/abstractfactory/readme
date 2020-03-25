@@ -1,0 +1,5 @@
+抽象工厂 - 扩展产品族
+
+抽象工厂的产品族：Food，Vehicle，Weapon
+ModerFactory的产品族：Bread，Car，AK47
+MagicFactory的产品族：MushRoom，Broom，MagicStick
