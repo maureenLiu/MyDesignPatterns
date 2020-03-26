@@ -1,0 +1,12 @@
+要求：
+    客户端对服务器的请求request，服务端到客户端的回复response；
+    要求用同一个过滤器既能过滤request，又能过滤response
+    且request的过滤器顺序是1->2->3, response的过滤器顺序是3->2->1
+
+最直观的方式处理response：
+    直接将response的处理放在request后面
+
+v2输出结果:
+    request:--HTMLFilter--SensitiveFilter
+    response:--HTMLFilter--SensitiveFilter
+不符合要求

@@ -1,0 +1,7 @@
+要求：
+    客户端对服务器的请求request，服务端到客户端的回复response；
+    要求用同一个过滤器既能过滤request，又能过滤response
+    且request的过滤器顺序是1->2->3, response的过滤器顺序是3->2->1
+
+v1输出结果:
+    大家好:)，[script], 欢迎访问maureen.com, 大家都是955
