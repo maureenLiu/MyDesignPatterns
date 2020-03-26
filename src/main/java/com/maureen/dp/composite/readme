@@ -1,0 +1,7 @@
+Composite组合模式：树状结构专用模式
+Main类运行结果：
+root
+--chapter1
+----c11
+----c12
+--chapter2
