@@ -49,6 +49,7 @@ public class ClassTransformTest {
 
         FileOutputStream fos;
         try {
+            //在项目的com/maureen/ASM下生成Tank_0.class
             fos = new FileOutputStream(new File(path + "/com/maureen/ASM/Tank_0.class"));
             fos.write(b2);
             fos.flush();
