@@ -1,0 +1,21 @@
+ASM官方文档使用示例
+1、ClassWriterTest - 动态生成字节码
+2、ClassPrinterTest读取到的字节码反编译结果：
+        com/maureen/dp/proxy/asm/T1 extends java/lang/Object {
+         i
+         <init>()
+         m()
+        }
+3、ClassTransformTest在com/maureen/ASM路径下生成了Tank_0.class
+        public class Tank {
+            public Tank() {
+                TimeProxy.before();
+                super();
+            }
+
+            public void move() {
+                TimeProxy.before();
+                System.out.println("Tank moving claclacla...");
+            }
+        }
+   已经将TimeProxy的before方法切入到了Tank的move方法中
